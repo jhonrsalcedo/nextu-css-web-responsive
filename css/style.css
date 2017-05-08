@@ -1,0 +1,56 @@
+body{
+	background: black;
+	font-family: 'Lobster', cursive;
+}
+
+header{
+	background: #5b7989;
+	
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+}
+
+li {
+	font-size: 20px;
+    float: right;
+		margin-left: 20px;
+		color: white;
+}
+
+li a {
+	font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+	font-size: 20px;
+   color: white;
+	 text-decoration-line: underline;
+}
+.contenedor {
+	background:#5b7989;
+	display: flex;
+	flex-direction: row;
+	
+}
+
+#titulo .contenedor > div {
+
+	background-color: #5b7989;
+	text-align: left;
+	padding: 0px;
+	margin: 10px;
+	width: 50%;
+}
+
+.h1-titulo{
+color: white;
+text-shadow: 2px 2px #02010a;
+}
