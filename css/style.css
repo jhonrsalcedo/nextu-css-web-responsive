@@ -1,15 +1,19 @@
 body {
 	background: black;
-	font-family: 'Lobster', cursive;
+	font-family: 'Dancing Script', cursive;
 	margin-left: 5%;
 	width: 90%;
-	
 }
 
-
-img{
+.img-seccion-01 {
 	width: 66%;
+	height: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
 }
+
 .contenedor {
 	background: #5b7989;
 	display: flex;
@@ -17,6 +21,7 @@ img{
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
+
 .div-titulo {
 	background-color: #5b7989;
 	text-align: left;
@@ -24,6 +29,7 @@ img{
 	margin: 10px;
 	width: 50%;
 }
+
 .div-menu {
 	background-color: #5b7989;
 	text-align: left;
@@ -43,7 +49,6 @@ ul {
 	margin: 0;
 	padding: 20px;
 	overflow: hidden;
-
 }
 
 li {
@@ -74,6 +79,85 @@ li a:hover {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 }
-.section-img{
+
+.section-img {
 	background-color: #82c3a6;
+}
+
+.section-img-02 {
+	background: #d5c75f;
+}
+
+.contenedor-box {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-box-orient: horizontal;
+	-moz-box-orient: horizontal;
+	box-orient: horizontal;
+	flex-direction: row;
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-moz-box-align: center;
+	box-align: center;
+	align-items: center;
+}
+
+.box {
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	flex: 1 1 auto;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	
+}
+
+#rotar{
+	transition: 2.5s ease;
+ 	-moz-transition: 2.5s ease; /* Firefox */
+ 	-webkit-transition: 2.5s ease; /* Chrome - Safari */
+ 	-o-transition: 2.5s ease; /* Opera */
+}
+#rotar:hover{
+	transform : rotate(10deg);
+	-moz-transform : rotate(10deg); /* Firefox */
+	-webkit-transform : rotate(10deg); /* Chrome - Safari */
+	-o-transform : rotate(10deg); /* Opera */
+}
+
+@media (max-width:320px) {
+	img {
+		width: 50%;
+	}
+}
+
+@media (min-width: 480px) {
+	img {
+		width: 60%;
+	}
+}
+
+@media (min-width: 768px) {
+	img {
+		width: 70%;
+	}
+}
+
+@media (min-width: 992px) {
+	img {
+		width: 80%;
+	}
+}
+
+@media (min-width: 1280px) {
+	img {
+		width: 100%;
+	}
 }
