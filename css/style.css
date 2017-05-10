@@ -104,17 +104,17 @@ li a.active {
 
 img.img-box-1 {
 	-webkit-filter: blur(10px);
-	border: 2px solid #82c3a6;
+	
 }
 
 img.img-box-2 {
 	-webkit-filter: grayscale(100%);
-	border: 2px solid #82c3a6;
+	
 }
 
 img.img-box-3 {
-	-webkit-filter: sepia(100%);
-	border: 2px solid #82c3a6;
+	-webkit-filter: sepia(90%);
+	
 }
 
 .box {
